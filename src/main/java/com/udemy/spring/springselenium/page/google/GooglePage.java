@@ -1,6 +1,7 @@
 package com.udemy.spring.springselenium.page.google;
 
 import com.udemy.spring.springselenium.page.BasePage;
+import org.openqa.selenium.WebDriver;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -8,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class GooglePage extends BasePage {
-
 
     @Autowired
     private SearchComponent searchComponent;

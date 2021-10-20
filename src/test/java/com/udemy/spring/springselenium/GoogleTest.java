@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-@SpringBootTest
 public class GoogleTest extends SpringBaseTestNGTest {
     @Autowired
     private GooglePage googlePage;
